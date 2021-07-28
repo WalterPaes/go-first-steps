@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	// Slices são "arrays" dinâmicos
-	var animes []string
+	var animes []string // nil
 	fmt.Println(animes)
 
 	animes = append(animes, "Naruto")

@@ -25,6 +25,6 @@ func main() {
 	word := concat("Hello", "World")
 	fmt.Println(word)
 
-	word1, word2 := example()
-	fmt.Println(word1, word2)
+	_, word2 := example()
+	fmt.Println(word2)
 }

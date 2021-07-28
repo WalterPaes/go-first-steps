@@ -17,4 +17,10 @@ func main() {
 	}
 
 	fmt.Println(students)
+
+	/*var fruits map[int]string
+	fruits[1] = "maçã"
+	fruits[2] = "banana"
+
+	fmt.Println(fruits)*/
 }

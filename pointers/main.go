@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 type person struct {
 	name string
 }
@@ -17,5 +19,5 @@ func main() {
 	p2 := p
 	p2.name = "Alberto"
 
-	println(p.name, p1.name, p2.name, p.name)
+	fmt.Println(p.name, p1.name, p2.name, p.name)
 }

@@ -3,7 +3,7 @@ package math
 import "testing"
 
 func TestAdd(t *testing.T) {
-	result := add(1, 2)
+	result := Add(1, 2)
 	expected := 3
 
 	if result != expected {

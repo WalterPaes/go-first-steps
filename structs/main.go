@@ -4,7 +4,11 @@ import "fmt"
 
 type Person struct {
 	Name string
-	Age  int
+	age  int
+}
+
+type Address struct {
+
 }
 
 func (p Person) getNome() string {
@@ -17,5 +21,4 @@ func main() {
 		26,
 	}
 
-	fmt.Println("Name:" + person.getNome())
-}
+	fmt.Printf("Name: %s | Age: %d", person.getNome(), person.age)}

@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	lang := "pt"
+	lang := "es"
 
 	switch lang {
 	case "pt":
@@ -11,7 +11,7 @@ func main() {
 	case "en":
 		fmt.Println("Hello")
 	case "es":
-		fmt.Println("HOla")
+		fmt.Println("Hola")
 	default:
 		fmt.Println("...")
 	}

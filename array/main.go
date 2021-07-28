@@ -5,8 +5,8 @@ import (
 )
 
 func main() {
-	// Arrays possuem tamanho fixo
-	var people [4]string
+	// Arrays possuem tamanho fixo e um único tipo
+	var people [4]string // nil
 	people[0] = "Tuba"
 	people[1] = "Ulisses"
 	people[2] = "Walter"
